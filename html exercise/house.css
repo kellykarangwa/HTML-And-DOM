@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    color: black;
+}
+.container{
+  background-color: white;  
+  width: 500px ;
+  height: 500px;
+  margin: 0 auto;
+}
+.content{
+    background-color: gainsboro;
+    font-family: 'calibri';
+    position: relative;
+    margin: auto;
+    padding-right: 70px;
+    top: 60px;
+    font-size: medium;
+}
+#first{
+  padding-bottom: auto;
+  width: 500px;
+}
+#second{
+  padding-top: auto;
+  width: 500px;
+}
+.details{
+  padding: 60px 50px;
+}
+h2{
+  color: orange;
+}
+u{
+  color: orange;
+}
+#fname{
+  width:350px;
+  border-radius: 5px;
+  border: 0cap;
+}
+#lname{
+  width:350px;
+  border-radius: 5px;
+  border: 0cap;
+}
+#password{
+  width:350px;
+  border-radius: 5px;
+  border: 0cap;
+}
+#email{
+  width:350px;
+  border-radius: 5px;
+  border: 0cap;
+}

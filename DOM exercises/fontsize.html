@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size</title>
+</head>
+<body>
+    <p id="first">I'm learning DOM</p>
+    <button id="change">Change Font Size</button>
+    <script>
+        document.getElementById("change").addEventListener("click",changing);
+        function changing(){
+            const paragraph=document.getElementById("first");
+            paragraph.style.fontSize="12px";
+        }
+    </script>
+
+</body>
+</html>

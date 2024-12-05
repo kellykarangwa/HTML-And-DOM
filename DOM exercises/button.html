@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise one</title>
+</head>
+<body>
+    <ul id="items">
+        <li>Fruits</li>
+        <li>Vegetables</li>
+        <li>Drinks</li>
+    </ul>
+    <button id="click">Remove last item</button>
+    <script>
+        document.getElementById("click").addEventListener("click",removing);
+        function removing(){
+            const list= document.getElementById("items");
+          const lastItem=list.lastElementChild;
+          if(lastItem){
+            list.removeChild(lastItem);
+
+        }
+    
+          }  
+        
+    </script>
+</body>
+</html>

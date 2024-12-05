@@ -1,0 +1,94 @@
+*{
+    margin:0;
+color: black;
+
+}
+.container{
+    background-color: white;
+    width: 550px;
+height: 850px;
+margin: 200px auto;
+
+}
+.content{
+    position: absolute;
+    background-color: beige;
+    position: relative;
+    margin:auto 50px ;
+    width: 500px;
+    font-size: medium;
+    font-family: 'Calibri';
+    top: 44px;
+    padding-right: 60px;
+}
+
+#intro{
+padding: 30px 40px;
+}
+
+img{
+    width: 497.32px;
+    height: 490px;
+    top: 295px;
+    left: 25px;
+    border-radius: 5px;
+    right: 25px;
+    padding: 25px 40px;
+
+}
+.details{
+    padding: 30px 40px ;
+}
+
+#simple{
+    background-color: rgba(255, 166, 0, 0.945);
+    width: 85.71px;
+height: 33.89px;
+border-radius: 10px;
+border: 0cap;
+color: white;
+}
+h1{
+    width: 548.15px;
+height: 111.62px;
+left: 0.06px;
+padding: 30px 40px;
+gap: 0px;
+opacity: 0px;
+
+}
+#dollar{
+    padding-bottom: 20px;
+}
+h2{
+font-family: Inter;
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
+#text{
+    padding-bottom: 20px;
+}
+#rent{
+    width: 494.33px;
+height: 49.83px;
+top: 1050.46px;
+left: 26.91px;
+gap: 0px;
+border-radius: 10px;
+border: 0cap;
+background-color: orange;
+}
+#footer{
+
+    width: 560px;
+    height: 60px;
+    background-color: black;
+}
+#footer p{
+    color: white;
+    text-align: center;
+font-weight: lighter;
+margin: auto;
+padding-top: 20px;
+}
