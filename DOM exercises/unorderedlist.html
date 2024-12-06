@@ -1,0 +1,30 @@
+<!-- Write a function that counts the number of list items in an unordered list and displays the count in a separate paragraph. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unordered</title>
+ </head>
+ <body>
+    <ul>
+        <li> water</li>
+        <li> Juice</li>
+        <li>Fantas</li>
+        </ul>
+    <p></p>
+    <script>
+     
+     const list= document.querySelectorAll("li")
+     const para=document.querySelector("p");
+     function counting(){
+// const  output=list.length;
+      para.innerHTML= list.length;
+    console.log(para);
+     }
+     counting();
+     
+
+    </script>
+ </body>
+ </html>

@@ -1,0 +1,20 @@
+<!-- Create a simple HTML page with a button. When the button is clicked, change the text of a paragraph. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragrapg</title>
+ </head>
+ <body>
+    <p>This is it!</p>
+    <button>Click</button>
+    <script>
+        const par= document.querySelector("p");
+        const but= document.querySelector("button");
+        but.addEventListener('click',function clicking(){
+par.innerText=("We are done!");
+        });
+    </script>
+ </body>
+ </html>
